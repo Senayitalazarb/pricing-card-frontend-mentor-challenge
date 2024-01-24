@@ -1,0 +1,129 @@
+html{
+  box-sizing: border-box;
+  font-family: karla;
+  font-size: 16px;
+  font-weight: 400px;
+}
+
+
+*, *:before, *:after {   /* so this way you can keep the border aligned well*/
+  box-sizing: inherit;
+}
+
+body{
+  padding: 20px;
+}
+
+h2,h4,p {
+  margin:0; 
+}
+
+#card {
+  width: 600px;
+  height:400px;
+  box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+  border-radius: 5px;
+  overflow: hidden;
+  
+}
+
+#top-section{
+  width: 100%;
+  height: 45%;
+  padding: 25px;
+ 
+}
+#bottom-section{
+  width: 100%;
+  height: 65%;
+  color: white;
+   
+}
+
+#bottom-left-section {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: top;
+  background-color: #2ab2af;
+  padding: 25px;
+}
+
+#bottom-right-section {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align : top;
+  background-color: #1ac9c5;
+  padding: 25px;
+ 
+}
+
+#top-section h2 {
+  color:#1ac9c5;
+  margin-bottom: 15px;
+}
+
+#top-section h4 {  
+   color: #c0df34;
+    margin-bottom: 10px;
+}
+
+#top-section p {
+  color: #98a6bd;
+}
+
+button {
+  background-color: #c0df34;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+botton:hover  {
+  cursor: pointer;
+  background-color: #A9C42D;
+  transform: scale(1.02);
+}
+
+#price {
+  font-weight: 700; 
+  font- size: 1.4rem;
+ 
+}
+
+#bottom-left-section h4{
+  margin-bottom: 25px;
+}
+
+#price-container {
+  margin-position: 10px;
+  
+}
+
+#price-freq, #price {
+  display: inline-block;     /*should make both together*/
+}
+
+#price-freq {
+  position: relative;
+  top: -2px;
+  font-size: 0.8rem;
+  opacity: 0.8;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+#bottom-left-section p {
+  font-size: 0.8rem;
+  margin-bottom: 50px
+}
+
+ul {
+  padding: 0; 
+  list-style: none;
+  font-size : 0.9rem;
+  opacity: 0.8;
+}
